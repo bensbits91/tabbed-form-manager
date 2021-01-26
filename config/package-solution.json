@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "form-checkbox-tabs-client-side-solution",
+    "id": "e38f6b33-ee52-4580-b4d5-90d1c50b2bc7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/form-checkbox-tabs.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "form-tab-builder-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/formTabBuilder/FormTabBuilderWebPart.js",
+          "manifest": "./src/webparts/formTabBuilder/FormTabBuilderWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FormTabBuilderWebPartStrings": "lib/webparts/formTabBuilder/loc/{locale}.js"
+  }
+}

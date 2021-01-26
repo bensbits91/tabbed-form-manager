@@ -1,0 +1,149 @@
+#workbenchPageContent,
+.CanvasZone {
+  max-width: unset;
+  border: none;
+}
+
+/* strectch content area to touch sides */
+#workbenchPageContent {
+  left: 0;
+  right: 0;
+}
+#workbenchPageContent > div > div > div,
+.CanvasZone,
+.CanvasSection-col {
+  /* overflow: hidden; */
+  padding: 0;
+}
+/* .ms-ScrollablePane--contentContainer {
+  padding: 0 100px;
+  overflow-x: hidden;
+} */
+
+.verticalPivot.nuTabs > div {
+  float: left;
+}
+.verticalPivot.nuTabs .ms-Pivot-link {
+  display: block;
+}
+.verticalPivot.nuTabs > div > div {
+  margin-top: 50px;
+}
+
+.sectionWrap {
+  margin-bottom: 50px;
+}
+.fieldWrap {
+  margin-bottom: 20px;
+}
+.fieldWrap .ms-Checkbox {
+  margin: 10px;
+}
+
+.sectionWrap.cols-2 .fieldWrap {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+.sectionWrap.cols-2 .fieldWrap.Text:nth-child(2n + 1) > div {
+  margin-right: 20px;
+}
+.sectionWrap.cols-2 .fieldWrap.Text:nth-child(2n) > div {
+  margin-left: 20px;
+}
+
+.new-tab {
+  background-color: #34bebd;
+}
+.nuTabs .ms-Pivot .ms-Button {
+  -webkit-transition: background-color 3s ease-out;
+  -moz-transition: background-color 3s ease-out;
+  -o-transition: background-color 3s ease-out;
+  transition: background-color 3s ease-out;
+}
+
+/* .nuTabs *:focus {
+    outline: -webkit-focus-ring-color none 0;
+}
+
+
+body:not(.user-is-tabbing) *:focus,
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus {
+  outline: none 0;
+} */
+/* .rc-tabs *,
+.rc-tabs *:focus,
+.rc-tabs *:focus-visible,
+.rc-tabs-tab,
+.rc-tabs-tab:focus,
+.rc-tabs-tab:focus-visible,
+.rc-tabs-tabpane,
+.rc-tabs-tabpane:focus,
+.rc-tabs-tabpane:focus-visible,
+*:focus {
+  outline: none !important;
+  outline: -webkit-focus-ring-color auto 0;
+} */
+
+/* THESE WERE FROM FORM-SLIDER */
+
+/* .form-wrap {
+  height: calc(100vh - 130px); 
+}
+.form-wrap .ms-CommandBar {
+  margin-top: 30px; 
+}
+.form-wrap .ms-CommandBar-secondaryCommand .ms-Button {
+  padding-top: 11px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.section-wrap {
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px 2px #ccc;
+  margin-bottom: 60px;
+  padding: 50px 120px 70px;
+}
+
+.section-wrap button {
+  margin: 24px 6px;
+}
+
+.compact h2 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.compact .section-wrap {
+  margin-bottom: 30px;
+  padding: 25px 60px 35px;
+}
+
+.dark .ms-CommandBar,
+.dark .section-wrap {
+  box-shadow: none;
+  border: none;
+}
+
+.dark .ms-Dropdown-callout button:hover .ms-Dropdown-optionText {
+  color: #111; 
+}
+.dark .ms-Dropdown-callout button:hover {
+  background-color: #777; 
+}
+
+.dark .ms-DatePicker .ms-Label {
+  color: #aaa;
+}
+ */

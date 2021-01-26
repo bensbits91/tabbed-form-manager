@@ -1,0 +1,124 @@
+.slide-enter {
+  height: 0;
+  opacity: 0.01;
+  transform: scaleY(0);
+}
+
+.slide-enter-active {
+  height: auto;
+  opacity: 1;
+  transform: scaleY(1);
+  transform-origin: 0 0;
+  /* transition-delay: 1000ms; */
+  transition: opacity 1000ms ease, transform 1000ms ease;
+  /* transform 1000ms cubic-bezier(.2,.38,.72,1.3); */
+}
+
+.slide-exit {
+  display: none;
+  /* height: 0;
+    opacity: 0.01;
+    transform: scaleY(0); */
+}
+
+.slide-exit-active {
+  display: none;
+  /* height: 0;
+    opacity: 0.01;
+    transform: scaleY(0); */
+  /* transform-origin: 0 0; */
+  /* transition:  */
+  /* all 1000ms ease; */
+  /* opacity 1000ms ease,
+        transform 1000ms ease; */
+  /* transform 700ms cubic-bezier(-.2,-.38,-.72,-1.3); */
+}
+
+
+
+
+
+.alert-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .alert-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .alert-exit {
+    opacity: 1;
+  }
+  .alert-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+  }
+
+
+
+
+
+.asdf-enter {
+  opacity: 0;
+}
+.asdf-enter-active {
+  opacity: 1;
+  transition: opacity 2000ms;
+}
+.asdf-exit {
+  opacity: 1;
+}
+.asdf-exit-active {
+  opacity: 0;
+  transition: opacity 2000ms;
+}
+
+
+
+
+
+
+
+.fade-enter {
+  /* max-height: 0; */
+  opacity: 0;
+}
+
+.fade-enter-active {
+  /* max-height: 30px; */
+  opacity: 1;
+  transition: all 1500ms;
+}
+
+.fade-exit {
+  /* max-height: 30px; */
+  opacity: 1;
+}
+
+.fade-exit-active {
+  /* max-height: 0; */
+  opacity: 0;
+  transition: all 1500ms;
+}
+
+/* 
+
+.fade-enter {
+    opacity: 0.01;
+  }
+  
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in-out;
+  }
+  
+  .fade-leave {
+    opacity: 1;
+  }
+  
+  .fade-leave.fade-leave-active {
+    opacity: 0.01;
+    transition: opacity 1ms ease-in-out;
+  } */
